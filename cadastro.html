@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cadastro.css"></link>
+
+    <title> cadastro </title>
+</head>
+<body>
+      <form method="GET" action="confirm.html">
+          <h1>formulario</h1>
+        Nome:<input type="text"name="nome" size="50px" required placeholder="nome"><br>  
+        Email:<input type="text"Email="Email" size="50px" required placeholder="Email"><br>
+        Senha:<input type="text"Senha="Senha" size="50px" required minlength="8" placeholder="Senha"><br>
+        Escolha uma foto:<input type="file"><br>
+        Cor:<input type="radio"name="cor"value="1">amarelo
+        <input type="radio"name="cor"value="2">Branco
+        <input type="radio"name="cor"value="3">Pardo
+        <input type="radio"name="cor"value="4">Negro
+        <input type="radio"name="cor"value="5">Nãõ quero responder
+        <br>    
+             <label for="Estado">Selecione um Estado</label>
+             <select id="Estado" name="Estado">
+                <option value="nd">nenhum</option>
+                 <option value="Al">Alagoas</option>
+                 <option value="Ba">Bahia</option>
+                 <option value="Ce">Ceara</option>
+                 <option value="Ma">Maranhão</option>
+                 <option value="pb">Paraiba</option>
+                 <option value="Pe">Pernambuco</option>
+                 <option value="sp">são paula</option>
+                 <option value="Pi">Piaui</option>
+                 <option value="se">sergipe</option>
+                 <option value="rn">rio grande do norte</option>
+                 <option value="rj">rio de janeiro</option>
+            </select><br>
+        Escolha um meio de comunição o mais:
+        <input type="checkbox"name="comunicaçâo"value="1">MUSICA
+        <input type="checkbox" name="comunicaçâo"value="2">TELEVISÃO
+        <input type="checkbox" name="comunicaçâo"value="3">RADIO
+        <input type="checkbox" name="comunicaçâo"value="4">CELULAR
+        <br>
+        <label for="obs">OBSERVAÇÃO</label>
+        <textarea id="obs"name="obs"></textarea>
+        </br>
+        <input type="submit" name="ENVIAR">
+        <input type="reset" name="DESFAZER">
+      </form>   
+</body>
+</html>

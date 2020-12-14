@@ -1,0 +1,32 @@
+
+
+form{
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+input,section,textarea,label {
+    text-align: justify;
+    margin-top: 3vh;
+}
+textarea{
+    height: 10vh;
+    width: 40vh;
+    border: 0;
+}
+#nome, #email, #senha{
+    width: 80vh;
+    height: 4vh;
+    border: 0;
+}
+.button{
+    background: lightskyblue;
+    border: 0;
+    height: 4vh;
+    cursor: pointer;
+    margin-right: 5px;
+}
