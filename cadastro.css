@@ -1,11 +1,14 @@
+h1{
+    height: 8vh;
 
+}
 
 form{
     max-width: 580px;
     margin: 0 auto;
     text-align: justify;
     padding: 20px;
-    background: lightgray;
+    background: rgb(241, 164, 241);
     border-radius: 5px;
     font-size: 14px;
 }
