@@ -1,0 +1,16 @@
+section {
+    display: flex;
+}
+div {
+    text-align: center;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+table,th,td {
+    border: 1px solid #000; 
+    align-self: center;
+}
+table{
+    width: 40vw;
+}
